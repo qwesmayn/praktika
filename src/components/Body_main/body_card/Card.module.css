@@ -1,0 +1,42 @@
+.comp_cart_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comp_cart_info_div {
+    width: 8.5rem;
+    height: 8rem;
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.75em;
+}
+
+.comp_cart_info_pic {
+    width: 4.8125rem;
+    height: 4.8125rem;
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+}
+
+.big_info {
+    color: #FFF;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.125rem;
+    letter-spacing: 0.0625rem;
+}
+
+.dop_info {
+    color: #FFF;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 171.429% */
+}
