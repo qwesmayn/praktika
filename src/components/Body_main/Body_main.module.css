@@ -1,5 +1,4 @@
 .Body_main {
-    text-align: center;
 }
 
 .body_roum {
@@ -18,14 +17,16 @@
 .body_img {
     display: flex;
     justify-content: space-between;
-    background: url("https://s3-alpha-sig.figma.com/img/7ac4/b652/5b8a361233323c0f29ada62308f901db?Expires=1699833600&Signature=gmmz~eFtyBHEg0YJ-6g1GqmF1dFtramCIrMiZaZPhcE3p1oJW~xCWrj7ZPacV-4mA~7YDCkTGoyg6cab3lfwXTxTiEULN7W2Z75pbcF7mo36OxjiwImiK4p78CpXwQHXkR7SfUQi1r6p6Sc3N0wNegYGSa685KLP0bM4zDOHHIkXARhA-qsryCKSxsV5jnG0fbbyiM8I4qIRisrakPpKRL~k3VUStUfrUpYuQD3cjXAMLJC8XyyihjbiiDWPPjzCI4rsV2hDCOOlciE7Tv2zqjz-EqsO2~gUiNAvQBXhwreKbts7Dx1hwRmhbwCBq-GBf1-kJ9Xnxq-ulhvLg42KIQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), #24995D;
+    background: url("https://s3-alpha-sig.figma.com/img/7ac4/b652/5b8a361233323c0f29ada62308f901db?Expires=1699833600&Signature=gmmz~eFtyBHEg0YJ-6g1GqmF1dFtramCIrMiZaZPhcE3p1oJW~xCWrj7ZPacV-4mA~7YDCkTGoyg6cab3lfwXTxTiEULN7W2Z75pbcF7mo36OxjiwImiK4p78CpXwQHXkR7SfUQi1r6p6Sc3N0wNegYGSa685KLP0bM4zDOHHIkXARhA-qsryCKSxsV5jnG0fbbyiM8I4qIRisrakPpKRL~k3VUStUfrUpYuQD3cjXAMLJC8XyyihjbiiDWPPjzCI4rsV2hDCOOlciE7Tv2zqjz-EqsO2~gUiNAvQBXhwreKbts7Dx1hwRmhbwCBq-GBf1-kJ9Xnxq-ulhvLg42KIQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), #24995D; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     width: 114.9375rem;
     height: 53.8125rem;
     flex-shrink: 0;
 }
 
 .comp_info_first{
-    padding:7.5em 0 11.9em 0;
+    padding:7.5em 0 9.9em 0;
     text-align: left;
 }
 
@@ -39,9 +40,8 @@
 
 .comp_info_second {
     display:grid;
-    grid-template-columns: 200px 200px;
-    grid-column-gap: 91px;
-    grid-row-gap: 22px;
+    grid-template-columns: repeat(2, 376px);
+    gap: 33px;
 }
 
 .comp_text_dop {
@@ -63,14 +63,27 @@
     margin: 4.1625em 0 4.1625em 0;
 }
 
+.body_text_bcolum{
+    padding: 5.8em 0 5.75em 0;
+}
+
 .body_text {
     color: #2E2E2E;
     text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
     font-size: 2.25rem;
     font-style: normal;
     font-weight: 900;
-    line-height: 1.875rem;
-    /* 83.333% */
+    line-height: 1.875rem; /* 83.333% */
+}
+
+.int_card{
+    display:grid;
+    grid-template-columns: repeat(2, 376px);    
+    gap: 11em;
+    align-items: center;
+    justify-content: center;
 }
 
 

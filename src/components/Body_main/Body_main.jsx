@@ -1,5 +1,6 @@
 import s from './Body_main.module.css'
 import Card from './body_card/Card'
+import Interesting_card from './int_card/Interesting_card'
 
 const Body_main = () => {
     return (
@@ -27,14 +28,14 @@ const Body_main = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className={s.body_text_bcolum}>
                 <p className={s.body_text}>ЧТО ВАС ИНТЕРЕСУЕТ?</p>
             </div>
-            <div className=''>
-                <div className=''></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div className={s.int_card}>
+                <Interesting_card text="Ритейл" dop_text="Оборудование и решения для ритейла. Автоматизация front-office, back-office, фискальное и торговое оборудование. Большой выбор весов разного назначения.Широкая экспертиза в области развертывания масштабных проектов по автоматизации РМК." img="https://s3-alpha-sig.figma.com/img/b715/ef41/f896dc512377942badbd63122c940a85?Expires=1699833600&Signature=pSHhL6gc3IJB~chWn4MDHfpNs~7qmHukaPnt2vp4Ynqf~gy3M2AD~-O7pZ3GkDWTKIKx2fnu6dOPIi83MK0tCsZhuzLNbcdh5fJTgsfrXWD3uzoX8KYyQuNrhO6LVhQL3Yepcb3a2NzmxwYNn9VJvy7hV5ozNzC9Ke39w~pnwtbW1xTGyWFflMVurGYbj3XfKOg-a-fbCxsuFcnEyTzudKiZg5P8kWAEmrqoFKaWPwSuh893vVcvNugNUhA9ti-2UWUGd7Ic4DzW-GMJEZFJ8KliFIOiUMbUH7cZVuSMo4~h1RgT6d8fyjAEv7vwR4HU40rgbr39JKNbPjTib4R0VA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"/>
+                <Interesting_card text="Платежные терминалы для банковских карт" dop_text="Представлены компаниями-партнерами Spire Payment Solutions и Vanstone Electronic. Их модели оборудования — это надежное, современное и безопасное платежное решение, которое предлагает наша компания организациям и индивидуальным предпринимателям, задействованным в сфере торговли и услуг." img="https://s3-alpha-sig.figma.com/img/5570/8eb3/3a8a0732fc91f8a09922c3fc647e59d5?Expires=1699833600&Signature=jljsNySwjZ8GsK6SU6YLK0rzLomV8233mD0nVnvI50Y9VIJa~~HQ6jJWHK2JE342aoqRQBaP-QAUYWpJ-CqLgSsaHjJLpwmikJug7ji9KpaijQ44n5Jyf7OvcWjKLJUuPK0apC38l85gxXfD~kxnVGP-x9Sb-V2DC0XDDzvCDVQRCf56wV5V7alRHJHrzhZHh2g6Ev0eoqBs2Hd1QswuwD0~Q~3jqRodilW8-fzYPpwitQiXvmpKQgBGVFZUmyG9RzBIJ72tNv6dAcl7njyBS-VREUWEepHpu~jBS3NJvGZYjWDCFMHl3gTcxJ4fbHFgUfWo4N-6r8J8iytu1ABZEQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"/>
+                <Interesting_card text="Банковское оборудование и ПО" dop_text="Обширный перечень товарных позиций: начиная от упаковщиков банкнот до мультифункциональных банкоматов. Мы предлагаем сертифицированное оборудование и программные решения от ведущих производителей отрасли, таких как Diebold Nixdorf, BS/2, SUZOHAPP, СмартКард-Сервис." img="https://s3-alpha-sig.figma.com/img/0075/43fe/4ec3d803ff3e95f981c7e3e6c32b9a65?Expires=1699833600&Signature=NZbZ1OsLWmPi8JN~58~1FOZoQIKOCAStmVa4TX5lZ1nEeIFA1P30kSSLhrYo76tsfWV8EcIEJS62vNqAz-QAQrYienb5Bddw4j6RHZklm2Ve4CkK5Ohnuyo5uZYg9VOPNyTsAD84-y1pjLdhlMOd8EteV7UX9aQeUmGi0nEu5NAlig18Vw-qzlQJqlo0Jwic3Ygdpt-m2RBQrKe3jR6RKeM5l3gDZBKRcG~-f0TzuTF0tR4vg1WDSLdsJZTC5MHN~6zF1prBdd30rvElS8Jx0Pb-wclyepG4nUfoKCaDpwoVnNcIvLy5U7m1EXLmWKV4AsfdXbdBJJ9~zas0Q-nG3g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"/>
+                <Interesting_card text="Сервис" dop_text="Развитая сеть сервисных центров, с филиалами в Минске и в 13 крупных городах по всей стране. Собственный автопарк насчитывает более 70 автомобилей, что позволяет обеспечить эффективное реагирование на обращения наших клиентов" img="https://s3-alpha-sig.figma.com/img/e783/1735/f522a233e66fe06139284c18b544e375?Expires=1699833600&Signature=nCJa7k1bvgMMZ3MfaJ7AKbTFq14wcCamU05QVTRfrkoGcQRNcJr342wptPb2yeSRbbDhtgg9apXZBVIKtXZD2lqVSVL1dVfb~H6JCit5wqBi5WfXoPPHgZsIMjGSa2iyY7asIbIyzHoapdBKr0mNCcRIfTRWBwB68SgTO2Ia9JysN6tHPQIF2aDvU5b0zXJ7Spnf2DflHxtIiMvctEDg0VLc2Ne563qmL1nicvGAC0E23YbGsxdb0tZ4VYYsxbBSIFr3mLE8dtngQvHZn-tBnpYod0exETvAltPJc17q5i88GOg744oLLuJysdoPxJoyynx4agUSNIX6WB66V45DWQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"/>
             </div>
         </div>
 
