@@ -1,0 +1,62 @@
+footer{
+    background: #eee;
+    width: 100%;
+    height: 330px;
+}
+
+.info_footer{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 3em;
+    display: flex;
+}
+
+.left_footer{
+    color: #434448;
+    margin-right: 30em;
+}
+
+.name_company{
+    font-size: 16px;
+    color: #434448;
+}
+
+.more_info{
+    font-size: 12px;
+    color: #434448;
+}
+
+.image{
+    width: 10em;
+}
+
+.right_footer{
+    display: flex;
+}
+
+.vl{
+    border-left: 1px solid #737373;
+    height: 8em;
+    margin: auto 5em;
+}
+
+.contact{
+    margin: auto 0;
+}
+
+.more_info_phone{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.phone_mail{
+    display: flex;
+    margin-top: -4em;
+}
+span{
+    color: #737373;
+}
+.phone{
+    color: #737373;
+}
