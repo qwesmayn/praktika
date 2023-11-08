@@ -1,0 +1,22 @@
+.pic_clients{
+    width: 13.875rem;
+    height: 6.5rem;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.pic_clients:hover{
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    cursor: pointer;
+}

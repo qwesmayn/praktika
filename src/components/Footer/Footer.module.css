@@ -1,0 +1,101 @@
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEE;
+    width: 100%;
+    height: 20.5625rem;
+    flex-shrink: 0;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_info {
+    margin-right: 17.125em;
+}
+
+.number {
+    display: flex;
+    margin-right: 1em;
+}
+
+.adres {
+    display: flex;
+    margin-bottom: 0.375em;
+}
+
+.email {
+    display: flex;
+}
+
+.number_and_email {
+    display: flex;
+}
+
+.img_logo {
+    width: 9.0625rem;
+    height: 7.5rem;
+    flex-shrink: 0;
+}
+
+.text_info1 {
+    color: #434448;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.05rem;
+    margin-bottom: 0.375em;
+}
+
+.text_info2 {
+    color: #737373;
+    font-size: 0.55rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.9375rem;
+    width: 9.125rem;
+    margin-bottom: 0.375em;
+}
+
+.contact_text {
+    color: #737373;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.575rem;
+    /* 157.5% */
+    text-transform: uppercase;
+    margin-right: 4.5625em;
+}
+
+.contacts_info {
+    border-left: 0.0625em solid #737373;
+    box-sizing: border-box;
+    padding-left: 4.5625em;
+}
+
+
+
+.contacts_info_text {
+    color: #737373;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.575rem; /* 168% */
+    text-transform: uppercase;
+}
+
+.contacts_info_text1 {
+    color: #434448;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.575rem; /* 157.5% */
+    text-transform: uppercase;
+    margin-right: 1em;
+}
