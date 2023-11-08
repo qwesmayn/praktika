@@ -1,7 +1,7 @@
 import s from './Body_main.module.css'
 import Card from './body_card/Card'
 import Clients_card from './clients_card/Clients_card'
-import Interesting_card from './int_card/Interesting_card'
+import Interesting_card from './Int_card/interesting_card'
 
 const Body_main = () => {
     return (

@@ -14,4 +14,4 @@ const Interesting_card = (props) => {
     )
 }
 
-export default Interesting_card 
+export default Interesting_card
