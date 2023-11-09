@@ -114,6 +114,7 @@
     width: 100%;
     color: #fff;
     height: 50px;
+    cursor: pointer;
 }
 .text{
     color: #737373;
