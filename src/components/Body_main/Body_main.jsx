@@ -1,7 +1,8 @@
 import s from './Body_main.module.css'
 import Card from './body_card/Card'
 import Clients_card from './clients_card/Clients_card'
-import Interesting_card from './Int_card/interesting_card'
+import Interesting_card from './Int_card/Interesting_card'
+import { YMaps, Map } from '@pbe/react-yandex-maps'
 
 const Body_main = () => {
     return (
@@ -63,7 +64,12 @@ const Body_main = () => {
                     <Clients_card src="https://s3-alpha-sig.figma.com/img/14cd/1229/5b933c72cf4b16fa4bac5948fc89c81c?Expires=1700438400&Signature=J~VmbkiTD8uaF1lzwj6pQ~rJB-jsuLORqKHV9a1zXhiaa~nd0R6WnSc2BUaRhH6VHf1eSBLHL0zFSojYyiJwKrElZnx6YW3UiaF50IeYWnNoLaBuCPj2-lkOmr99-o2y8jXrmxubJ2GsA~OBUfYWyJ9LlGUMw0ZZRh4GTRqhZV692Y4iSqMGsMo5PdEwVJVnxJefXnHUrWWx9aRx8HTXS0jAe5wtWMtz2KcOX3QniSb806fGnx4pMxaAk8I0ahlrtnaNW4lCVqJ9CZZuvq8VsqK0zy4-K0vCkyCBIkUnOn3EA~MlBvqL48CixlIUOndxvK8s-JyC7nr7xplLgdQgPg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
                 </div>
             </div>
-            <div>
+            <div className={s.map}>
+                <YMaps>
+                    <div>
+                        <Map className={s.map_source} defaultState={{ center: [53.883913, 27.592990], zoom: 19}}  width="2555px" height="555px"/>
+                    </div>
+                </YMaps>
             </div>
         </div>
 
