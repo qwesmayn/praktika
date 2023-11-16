@@ -1,16 +1,17 @@
 import React from 'react';
 import s from "./header.module.css"
 import { NavLink } from "react-router-dom";
+import Contact from '../Contact/Contact';
 
 const Header_main = () => {
     return (
         <div className={s.Header_main}>
             <div className={s.item}>
-            <NavLink to='/main' className={navData => navData.isActive ? s.active : s.item}><img className={s.logo} src="https://s3-alpha-sig.figma.com/img/304e/1f0c/b8632fa744c51c9d62bc94dff6eb130c?Expires=1699833600&Signature=baloOimUgYMD-bKcVMqVfRWn~SwYPjEdBWjbnAnBcR7-I2DLH7ivF62MuDTgcOUbVFTMVXT-W4QFt6hO8F6Jt6i9dMK-rpt7NxzJt4SLeghOcGnA9XA1xrsKBpcArOEWXgCLeMwKHykHdbH5RwTTMF9PDAeUhW8WqHX1F7tD5Me1aXJf~-y9mBPaYE-BKfSWYj8YqDD7wlPHbBAsssv72b7olws8xf7lsF3AS1tSiu4vgmE35CneyT9WHgp6Fsimx8cviu7x9M-we6k5BGIiqDNBRFgN-TasLbBtDX5uNBwbledng49fjUCY5PF-QtfcgAW2t7O2UAxPCalR~lZXUg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"></img></NavLink>
+                <NavLink to='/' className={navData => navData.isActive ? s.active : s.item}><img className={s.logo} src="https://s3-alpha-sig.figma.com/img/304e/1f0c/b8632fa744c51c9d62bc94dff6eb130c?Expires=1699833600&Signature=baloOimUgYMD-bKcVMqVfRWn~SwYPjEdBWjbnAnBcR7-I2DLH7ivF62MuDTgcOUbVFTMVXT-W4QFt6hO8F6Jt6i9dMK-rpt7NxzJt4SLeghOcGnA9XA1xrsKBpcArOEWXgCLeMwKHykHdbH5RwTTMF9PDAeUhW8WqHX1F7tD5Me1aXJf~-y9mBPaYE-BKfSWYj8YqDD7wlPHbBAsssv72b7olws8xf7lsF3AS1tSiu4vgmE35CneyT9WHgp6Fsimx8cviu7x9M-we6k5BGIiqDNBRFgN-TasLbBtDX5uNBwbledng49fjUCY5PF-QtfcgAW2t7O2UAxPCalR~lZXUg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"></img></NavLink>
             </div>
             <div className={s.item}>
-                    <NavLink to='/about' className={navData => navData.isActive ? s.active : s.item}>О КОМПАНИИ</NavLink>
-                    <NavLink to='/contacts' className={navData => navData.isActive ? s.active : s.item}>КОНТАКТЫ</NavLink>
+                <NavLink to='/about' className={navData => navData.isActive ? s.active : s.item}>О КОМПАНИИ</NavLink>
+                <NavLink to='/contacts' className={navData => navData.isActive ? s.active : s.item}>КОНТАКТЫ</NavLink>
             </div>
             <div className={s.item}>
                 <div className={s.item_add}>
@@ -27,7 +28,8 @@ const Header_main = () => {
                         <p className={s.number}>+375 (29) 620-46-22</p>
                     </li>
                 </div>
-                <button className={s.order_call}>Заказать звонок</button>
+                <NavLink to='/login' className={navData => navData.isActive ? s.active : s.item}>ВОЙТИ</NavLink>
+                <NavLink to='/contacts' className={navData => navData.isActive ? s.active : s.item}><button className={s.order_call}>Заказать звонок</button></NavLink>
             </div>
         </div>
     )

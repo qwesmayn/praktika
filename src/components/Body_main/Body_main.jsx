@@ -2,6 +2,7 @@ import s from './Body_main.module.css'
 import Card from './body_card/Card'
 import Clients_card from './clients_card/Clients_card'
 import Interesting_card from './Int_card/Interesting_card'
+import { NavLink } from 'react-router-dom'
 import { YMaps, Map } from '@pbe/react-yandex-maps'
 
 const Body_main = () => {
@@ -44,7 +45,9 @@ const Body_main = () => {
                     <p className={s.help_text1}>Не нашли свой продукт в списке, или остались вопросы?</p>
                     <p className={s.help_text2}>Свяжитесь с менеджером по телефону +7 (778) 065-12-46 или</p>
                 </div>
-                <div><button className={s.button_help}>Заказать звонок</button></div>
+                <div>
+                <NavLink to='/contacts' className={navData => navData.isActive ? s.active : s.item}><button className={s.button_help}>Заказать звонок</button></NavLink>
+                </div>
             </div>
             <div className={s.clients_comp}>
                 <div className={s.text_info}>
@@ -67,7 +70,7 @@ const Body_main = () => {
             <div className={s.map}>
                 <YMaps>
                     <div>
-                        <Map className={s.map_source} defaultState={{ center: [53.883913, 27.592990], zoom: 19}}  width="2555px" height="555px"/>
+                        <Map className={s.map_source} defaultState={{ center: [53.883913, 27.592990], zoom: 19 }} width="2555px" height="555px" />
                     </div>
                 </YMaps>
             </div>

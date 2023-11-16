@@ -1,0 +1,105 @@
+.registration_page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,   -50%);
+    width: 588px;
+    height: 732px;
+}
+
+.input_data {
+    padding: 9em 33px 2em 33px;
+    padding-top: 91px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info_all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.info{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.info2{
+    margin-right: 6.7em;
+}
+
+.item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #838383;
+}   
+
+.active{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #838383;
+}
+
+.dop{
+    margin-right: 6.7em;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.dop a {
+    color: #2B6943;
+}
+
+.dop a:hover{
+    color: #8FCA55;
+}
+
+.dop_sogl{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px
+}
+
+.confirm{
+    padding-left: 0.7em;
+    width: 391px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #838383;
+}
+
+.submit{
+    background-color: #2B6943;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 391px;
+    height: 57px;
+    margin-bottom: 33px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    border-radius: 7px;
+}
+
+.submit:hover{
+    background-color: #8FCA55;
+}
+
+.end{
+    text-align: center;
+    margin-right: 6.7em;
+}
